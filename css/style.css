@@ -13,7 +13,7 @@ html{
 .container{
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 2rem;
 }
 
 .btn {
@@ -45,6 +45,58 @@ html{
     font-size: 1.5rem;
     color: white;
 }
+
+/* main */
+
+.top-container{
+    background-color: rgb(181, 221, 255);
+    border-radius: 1rem;
+    padding: 1.8rem 1.8rem 0 2rem;
+    margin: 1.5rem 0;
+}
+
+.top-container h2{
+    font-size: 22px;
+    color: #0084FD;
+}
+
+.top-container p{
+    padding: 2rem 0;
+    font-size: 16px;
+    line-height: 1.8em;
+    font-weight: 700;
+    color: rgb(90, 110, 127)
+}
+
+.phone img{
+    width: 242px;
+    display: block;
+}
+
+.btn.btn-apple{
+    background-color: #0084FD;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    padding: 0.7rem 3rem;
+    margin-bottom: 2rem;
+}
+
+.top-container.text-center{
+    text-align: center;
+}
+
+.icon{
+    padding-bottom: 1.7rem;
+    font-size: 80px;
+    color: #0084FD;
+}
+
+
+/* media query */
 
 @media screen and (min-width: 811px) {
     .nav-top ul{
