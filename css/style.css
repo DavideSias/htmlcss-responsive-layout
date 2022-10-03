@@ -48,6 +48,12 @@ html{
 
 /* main */
 
+/* first section */
+
+.container.first-section{
+    margin-bottom: 5rem;
+}
+
 .top-container{
     background-color: rgb(181, 221, 255);
     border-radius: 1rem;
@@ -60,7 +66,7 @@ html{
     color: #0084FD;
 }
 
-.top-container p{
+.top-container-text{
     padding: 2rem 0;
     font-size: 16px;
     line-height: 1.8em;
@@ -95,6 +101,58 @@ html{
     color: #0084FD;
 }
 
+/* second section */
+
+.purple{
+    background-color: rgb(151, 146, 228);
+    padding: 3rem 0 2rem 0;
+}
+.container .planning1, .planning2{
+    width: 90%;
+}
+
+.strategic-planning{
+    color: white;
+}
+
+.strategic-planning h2{
+    font-size: 27px;
+    margin: 4rem 0 2rem;
+}
+
+.strategic-planning p{
+    font-size: 15px;
+    line-height: 2em;
+}
+
+.top-container.mid-section{
+    padding: 2rem 1rem;
+    background-color: white;
+    border-radius: 3em;
+    text-align: center;
+    color: black;
+}
+
+.mid-section h3{
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 1rem;
+}
+
+.mid-section p{
+    color: black;
+    font-style: italic;
+    font-weight: 400;
+    padding: 1.5rem 0 2rem 0;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.btn-arrow{
+    background-color: rgb(151, 146, 228);
+    padding: 1.2rem 1.3rem;
+    border-radius: 10em;
+}
 
 /* media query */
 
