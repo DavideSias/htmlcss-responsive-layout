@@ -193,7 +193,7 @@ html{
 }
 
 .purple-card .testimonial-img{
-    width: 100%;
+    width: 262px;
     clip-path: circle();
 }
 
@@ -250,6 +250,55 @@ html{
     font-weight: 500;
     letter-spacing: 0.2em;
 }
+
+/* fifth section */
+
+.about-us h2{
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 50px;
+    color: rgb(151, 146, 228);
+}
+
+.about-us p{
+    font-size: 18px;
+    line-height: 2em;
+    margin-bottom: 3rem;
+}
+
+.about-img{
+    width: 200px;
+    clip-path: circle();
+}
+
+.my-quote{
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.my-quote p{
+    margin: 1.5rem 0;
+    font-size: 27px;
+    line-height: 1.5em;
+    font-weight: 700;
+    color: rgb(151, 146, 228);
+}
+
+.my-quote .quote-icon{
+    font-size: 70px;
+    color: rgb(151, 146, 228);
+    position: absolute;
+    top: 0;
+    right: 90px;
+}
+
+.my-quote .btn-linkedin {
+    background-color: rgb(151, 146, 228);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
 
 /* media query */
 
