@@ -23,6 +23,10 @@ html{
     cursor: pointer;
 }
 
+.btn:hover{
+    opacity: 0.8;
+}
+
 /* navbar */
 
 .nav-top {
@@ -416,6 +420,10 @@ html{
         text-align: start;
     }
 
+    .testimonial-section{
+        margin-bottom: 4rem;
+    }
+
     .flex-card{
         display: flex;
         flex-wrap: wrap;
@@ -510,6 +518,54 @@ html{
 
     .hamburger {
         display: none;
+    }
+
+    .top-container.phone-container{
+        display: flex;
+    }
+
+    .top-container .phone{
+        align-self: flex-end;
+    }
+
+    .container.planning-container{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+
+    .strategic-planning{
+        flex-basis: 40%;
+    }
+
+    .strategic-planning h2 {
+    font-size: 30px;
+    margin: 4rem 0 2rem;
+    text-align: start;
+    }
+
+    .mid-section.white-card{
+        flex-basis: 37%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .strategic-planning .planning1{
+        width: 100%;
+        margin: 7rem 0 4rem;
+    }
+
+    .white-card .planning2{
+        width: 80%;
+    }
+
+    .card{
+        flex-basis: calc((100% - 2rem) / 3);
+    }
+
+    .foot-text,
+    .foot-text2{
+        font-size: 15px;
     }
 }
 
